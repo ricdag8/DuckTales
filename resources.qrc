@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/sprites"/>
+    <qresource prefix="/background">
+        <file>theMoon.png</file>
+    </qresource>
+</RCC>
