@@ -1,5 +1,7 @@
 #include "Game.h"
 
+using namespace DT;
+
 Game* Game::_uniqueInstance = 0;
 Game* Game::instance()
 {
@@ -17,7 +19,7 @@ Game::Game() : QGraphicsView()
     setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setInteractive(false);
-    Game::instance()->world()->setBackgroundBrush(QBrush(QImage(":/background/background.png")));
+    // Game::instance()->world()->setBackgroundBrush(QBrush(QImage(":/background/background.png")));
 
     //QObject::connect(&_engine, SIGNAL(timeout()), this, SLOT(nextFrame()));
     _engine.setTimerType(Qt::PreciseTimer);

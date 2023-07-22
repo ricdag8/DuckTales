@@ -1,10 +1,17 @@
-#ifndef GAME_H
-#define GAME_H
+#pragma once
+
 #include <QGraphicsView>
 #include <QTimer>
 #include "Scrooge.h"
 
-class Game:public QGraphicsView
+namespace DT
+{
+    class Game;
+    class Scrooge;
+    enum class GameState{READY, TITLE_SCREEN, RUNNING, PAUSED, GAME_OVER};
+}
+
+class DT::Game:public QGraphicsView
 {
     Q_OBJECT
 private:
@@ -17,6 +24,12 @@ private:
 public:
     static Game* instance();
     QGraphicsScene* world(){return _world;}
-};
+    Scrooge* player(){return _player;}
 
-#endif // GAME_H
+public slots:
+    void reset();
+    void welcome();
+    void start();
+    void newFrame();
+    void togglePause();
+};

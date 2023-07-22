@@ -5,7 +5,12 @@
 #include <QBoxLayout>
 #include "Game.h"
 
-class MainWindow : public QWidget
+namespace DT
+{
+    class MainWindow;
+}
+
+class DT::MainWindow : public QWidget
 {
     Q_OBJECT
 private:

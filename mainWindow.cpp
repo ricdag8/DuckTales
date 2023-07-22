@@ -1,5 +1,7 @@
 #include "mainWindow.h"
 
+using namespace DT;
+
 MainWindow::MainWindow() : QWidget(0)
 {
     _game = Game::instance();

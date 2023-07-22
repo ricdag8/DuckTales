@@ -5,8 +5,7 @@ int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    (new MainWindow())->show();
+    (new DT::MainWindow())->show();
 
     return app.exec();
 }
-#include <QApplication>

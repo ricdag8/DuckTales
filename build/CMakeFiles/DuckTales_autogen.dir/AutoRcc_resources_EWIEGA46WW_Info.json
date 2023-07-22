@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/Users/mario/Documents/DuckTales/DuckTales-1/build/DuckTales_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/mario/Documents/DuckTales/DuckTales-1/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/mario/Documents/DuckTales/DuckTales-1/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/mario/Documents/DuckTales/DuckTales-1",
+	"CMAKE_SOURCE_DIR" : "/Users/mario/Documents/DuckTales/DuckTales-1",
+	"INCLUDE_DIR" : "/Users/mario/Documents/DuckTales/DuckTales-1/build/DuckTales_autogen/include",
+	"INPUTS" : [ "/Users/mario/Documents/DuckTales/DuckTales-1/theMoon.png" ],
+	"LOCK_FILE" : "/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles/DuckTales_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/Users/mario/Qt/6.4.2/macos/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles/DuckTales_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/mario/Documents/DuckTales/DuckTales-1/resources.qrc",
+	"VERBOSITY" : 0
+}

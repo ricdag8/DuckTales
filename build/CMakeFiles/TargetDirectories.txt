@@ -1,0 +1,4 @@
+/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles/DuckTales.dir
+/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles/edit_cache.dir
+/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles/rebuild_cache.dir
+/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles/DuckTales_autogen.dir
