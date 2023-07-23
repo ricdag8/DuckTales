@@ -27,6 +27,11 @@ Game::Game() : QGraphicsView()
     //QObject::connect(&_engine, SIGNAL(timeout()), this, SLOT(nextFrame()));
     _engine.setTimerType(Qt::PreciseTimer);
     _engine.setInterval(1000 / 60);
+
+    QOpenGLWidget* gl = new QOpenGLWidget();
+	setViewport(gl);
+
+	reset();
 }
 
 
