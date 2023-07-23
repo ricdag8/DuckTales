@@ -9,7 +9,7 @@ using namespace DT;
 
 static int created=0;
 
-Object::Object(QPointF pos, int width, int height)
+Object::Object(QPointF pos, double width, double height)
 {
     _id=created++;
     _collidable=true;

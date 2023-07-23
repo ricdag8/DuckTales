@@ -12,7 +12,7 @@ namespace DT
 class DT::StaticObject
 {
     public:
-        StaticObject(QPointF pos, int width, int height) : Object(pos,width,height){}
+        StaticObject(QPointF pos, double width, double height) : Object(pos,width,height){}
 };
 
 #endif

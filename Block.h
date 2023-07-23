@@ -10,7 +10,7 @@ namespace DT
 
 class DT::block{
     public:
-        block(QPointF _pos, int width, int height) : StaticObject(pos, width, height){}
+        block(QPointF _pos, double width, double height) : StaticObject(pos, width, height){}
 
 };
 

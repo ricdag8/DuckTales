@@ -23,7 +23,7 @@ class DT::Object : public QGraphicsItem
         bool _colliderVisible;
 
     public:
-        Object(QPointF pos, int width, int height);
+        Object(QPointF pos, double width, double height);
 
         int id() const {return _id;}
         QRectF boundingRect() const override {return _boundingRect;}
