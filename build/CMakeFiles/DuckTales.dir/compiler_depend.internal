@@ -1721,6 +1721,24 @@ CMakeFiles/DuckTales.dir/Game.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
+ /Users/mario/Qt/6.4.2/macos/lib/QtOpenGLWidgets.framework/Headers/QOpenGLWidget
+ /Users/mario/Qt/6.4.2/macos/lib/QtOpenGLWidgets.framework/Headers/qopenglwidget.h
+ /Users/mario/Qt/6.4.2/macos/lib/QtOpenGLWidgets.framework/Headers/qtopenglwidgetsglobal.h
+ /Users/mario/Qt/6.4.2/macos/lib/QtOpenGLWidgets.framework/Headers/qtopenglwidgetsexports.h
+ /Users/mario/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers/QWidget
+ /Users/mario/Qt/6.4.2/macos/lib/QtGui.framework/Headers/QSurfaceFormat
+ /Users/mario/Qt/6.4.2/macos/lib/QtGui.framework/Headers/qsurfaceformat.h
+ /Users/mario/Qt/6.4.2/macos/lib/QtGui.framework/Headers/qopengl.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glext.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/os/availability.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl3.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/inttypes.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/inttypes.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/inttypes.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_inttypes.h
 
 CMakeFiles/DuckTales.dir/Scrooge.cpp.o
  /Users/mario/Documents/DuckTales/DuckTales-1/Scrooge.cpp

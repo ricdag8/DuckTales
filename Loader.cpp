@@ -26,14 +26,5 @@ Scrooge* Loader::load(std::string levelName)
         new block(QPointF(125, -5*TILE), 1*TILE, 13*TILE);
         new block(QPointF(126, -8*TILE), 2*TILE, 26.5*TILE);
 
-        
-
-
-
-
-
-        
-        
-
     }
 }

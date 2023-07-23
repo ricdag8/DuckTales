@@ -1,6 +1,7 @@
 #include "Game.h"
 #include "GameConfig.h"
 #include "Loader.h"
+#include <QOpenGLWidget>
 
 
 using namespace DT;
@@ -31,7 +32,6 @@ Game::Game() : QGraphicsView()
     QOpenGLWidget* gl = new QOpenGLWidget();
 	setViewport(gl);
 
-	reset();
 }
 
 
@@ -40,6 +40,6 @@ void Game::start()
 
 		_world->clear();
 		_engine.start();
-		_player = Loader::load("theMoon");
+		// _player = Loader::load("theMoon");
 
 }

@@ -1717,7 +1717,25 @@ CMakeFiles/DuckTales.dir/Game.cpp.o: /Users/mario/Documents/DuckTales/DuckTales-
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Users/mario/Qt/6.4.2/macos/lib/QtOpenGLWidgets.framework/Headers/QOpenGLWidget \
+  /Users/mario/Qt/6.4.2/macos/lib/QtOpenGLWidgets.framework/Headers/qopenglwidget.h \
+  /Users/mario/Qt/6.4.2/macos/lib/QtOpenGLWidgets.framework/Headers/qtopenglwidgetsglobal.h \
+  /Users/mario/Qt/6.4.2/macos/lib/QtOpenGLWidgets.framework/Headers/qtopenglwidgetsexports.h \
+  /Users/mario/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers/QWidget \
+  /Users/mario/Qt/6.4.2/macos/lib/QtGui.framework/Headers/QSurfaceFormat \
+  /Users/mario/Qt/6.4.2/macos/lib/QtGui.framework/Headers/qsurfaceformat.h \
+  /Users/mario/Qt/6.4.2/macos/lib/QtGui.framework/Headers/qopengl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glext.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/os/availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl3.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/inttypes.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/inttypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/inttypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_inttypes.h
 
 CMakeFiles/DuckTales.dir/Scrooge.cpp.o: /Users/mario/Documents/DuckTales/DuckTales-1/Scrooge.cpp \
   /Users/mario/Documents/DuckTales/DuckTales-1/Scrooge.h
@@ -3412,9 +3430,33 @@ CMakeFiles/DuckTales.dir/mainWindow.cpp.o: /Users/mario/Documents/DuckTales/Duck
 
 /Users/mario/Qt/6.4.2/macos/lib/QtCore.framework/Headers/qcoreevent.h:
 
+/Users/mario/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers/QApplication:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_inttypes.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/inttypes.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/inttypes.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/inttypes.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl3.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h:
+
+/Users/mario/Qt/6.4.2/macos/lib/QtGui.framework/Headers/qopengl.h:
+
 /Users/mario/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers/qapplication.h:
 
-/Users/mario/Qt/6.4.2/macos/lib/QtWidgets.framework/Headers/QApplication:
+/Users/mario/Qt/6.4.2/macos/lib/QtGui.framework/Headers/qsurfaceformat.h:
+
+/Users/mario/Qt/6.4.2/macos/lib/QtOpenGLWidgets.framework/Headers/qtopenglwidgetsexports.h:
+
+/Users/mario/Qt/6.4.2/macos/lib/QtOpenGLWidgets.framework/Headers/qtopenglwidgetsglobal.h:
+
+/Users/mario/Qt/6.4.2/macos/lib/QtOpenGLWidgets.framework/Headers/QOpenGLWidget:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
 
@@ -4016,6 +4058,8 @@ DuckTales_autogen/EWIEGA46WW/moc_mainWindow.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glext.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/ctype.h:
@@ -4097,6 +4141,8 @@ DuckTales_autogen/EWIEGA46WW/moc_mainWindow.cpp:
 /Users/mario/Qt/6.4.2/macos/lib/QtCore.framework/Headers/qtcore-config.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdbool.h:
+
+/Users/mario/Qt/6.4.2/macos/lib/QtGui.framework/Headers/QSurfaceFormat:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/wrap_iter.h:
 
@@ -4856,6 +4902,8 @@ DuckTales_autogen/mocs_compilation.cpp:
 
 /Users/mario/Qt/6.4.2/macos/lib/QtCore.framework/Headers/qmath.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_enum.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_trivially_constructible.h:
@@ -5116,6 +5164,8 @@ DuckTales_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_rune_t.h:
 
+/Users/mario/Qt/6.4.2/macos/lib/QtOpenGLWidgets.framework/Headers/qopenglwidget.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/has_virtual_destructor.h:
 
 /Users/mario/Qt/6.4.2/macos/lib/QtCore.framework/Headers/qglobalstatic.h:
@@ -5183,6 +5233,8 @@ DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/limits:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_convertible.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/os/availability.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/literals.h:
 
