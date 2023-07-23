@@ -11,6 +11,8 @@ Scrooge* Loader::load(std::string levelName)
     if(levelName=="theMoon")
     {
         Game::instance()->world()->addPixmap(QPixmap(":/theMoon.png"));
+        
+        new block()
 
     }
 }
