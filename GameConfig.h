@@ -1,7 +1,7 @@
 #ifndef GAMECONFIG_H
 #define GAMECONFIG_H
 
-namspace DT
+namespace DT
 {
     const int FPS=60;
     const int TILE=16;

@@ -25,11 +25,11 @@ public:
     static Game* instance();
     QGraphicsScene* world(){return _world;}
     Scrooge* player(){return _player;}
-/*
+
 public slots:
-    void reset();
-    void welcome();
+
+
     void start();
-    void newFrame();
-    void togglePause(); */
+
+
 };
