@@ -9,7 +9,8 @@ namespace DT
     class Sprites;
 }
 
-class DT::Sprites
+
+class Sprites
 {
     private:
         std::map<std::string, QPixmap> _sprites;
@@ -21,7 +22,7 @@ class DT::Sprites
         QPixmap* getSprite(const std::string& id);
         void getAnimation(const std::string& id, QRect animOutput[]);
         QPixmap getTexture(const std::string& id);
-        QPixmap getText(std::string text, int fill=0, QColor color=qt::white);
+        QPixmap getText(std::string text, int fill=0, QColor color=Qt::white);
 };
 
 #endif

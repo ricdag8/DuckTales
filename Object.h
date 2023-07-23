@@ -1,6 +1,5 @@
-#ifndef OBJECT_H_
-#define OBJECT_H_
-
+#ifndef OBJECT_H
+#define OBJECT_H
 #include <QGraphicsItem>
 
 namespace DT
@@ -31,6 +30,7 @@ class DT::Object : public QGraphicsItem
         virtual bool collidable() const {return _collidable;}
         bool comperentrable() const {return _compenetrable;}
         //completare implementazione metodi
-}
+};
 
-#endif
+
+#endif // OBJECT_H

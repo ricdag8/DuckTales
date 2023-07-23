@@ -1,17 +1,24 @@
-#ifndef BLOCK_H
+/*#ifndef BLOCK_H
 #define BLOCK_H
-
-#include "StaticObject.h"
+#include "Object.h"
 
 namespace DT
 {
     class block;
 }
 
-class DT::block{
-    public:
-        block(QPointF _pos, double width, double height) : StaticObject(pos, width, height){}
 
+class Block{
+    public:
+        enum class Type {BRICK, WALL, QUESTION, HIDDEN};
+        Block(QPointF _pos, double width, double height) : Object(pos, width, height){};
+    protected:
+        QPointF _pos;
+        Block::Type _type;
+        bool _bouncing;
+        bool _disabled;
+        bool _spawned;
 };
 
 #endif
+*/
