@@ -1,5 +1,7 @@
 <RCC>
-    <qresource prefix="/sprites"/>
+    <qresource prefix="/sprites">
+        <file>stillScrooge.png</file>
+    </qresource>
     <qresource prefix="/background">
         <file>theMoon.png</file>
     </qresource>

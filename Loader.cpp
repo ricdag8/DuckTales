@@ -1,12 +1,12 @@
+#include <QBrush>
 #include "Loader.h"
-#include "Scrooge.h"
 #include "Game.h"
 #include "GameConfig.h"
-#include <QBrush>
+#include "Block.h"
 
 using namespace DT;
 
-Scrooge* Loader::load(std::string levelName)
+DT::Scrooge* DT::Loader::load(std::string levelName, QGraphicsScene * scene)
 {
     if(levelName=="theMoon")
     {
@@ -27,4 +27,5 @@ Scrooge* Loader::load(std::string levelName)
         new block(QPointF(126, -8*TILE), 2*TILE, 26.5*TILE);
 
     }
+    return nullptr;
 }

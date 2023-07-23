@@ -3,7 +3,6 @@
 #include "Loader.h"
 #include <QOpenGLWidget>
 
-
 using namespace DT;
 
 Game* Game::_uniqueInstance = 0;
@@ -23,7 +22,7 @@ Game::Game() : QGraphicsView()
     setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setInteractive(false);
-    // Game::instance()->world()->setBackgroundBrush(QBrush(QImage(":/background/background.png")));
+    Game::instance()->world()->setBackgroundBrush(QBrush(QImage(":/background/theMoon.png")));
 
     //QObject::connect(&_engine, SIGNAL(timeout()), this, SLOT(nextFrame()));
     _engine.setTimerType(Qt::PreciseTimer);
@@ -40,6 +39,7 @@ void Game::start()
 
 		_world->clear();
 		_engine.start();
-		// _player = Loader::load("theMoon");
+        // _player = Loader::load("theMoon"); Momentaneamente commentato finchè Loader non verrà implementata, da qui si piazza Scrooge
+
 
 }

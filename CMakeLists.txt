@@ -4,7 +4,8 @@ project( DuckTales )
 cmake_minimum_required(VERSION 3.1 FATAL_ERROR)
 
 # ottengo tutti i sorgenti
-file(GLOB my_sources *.h *.cpp *.qrc)
+file(GLOB my_sources *.h *.cpp *.qrc
+Vec2D.h Direction.h Entity.cpp Entity.h)
 
 # attiva il Resource Compiler (RCC)
 set(CMAKE_AUTORCC ON)

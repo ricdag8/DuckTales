@@ -2,6 +2,7 @@
 #define LOADER_H
 
 #include <iostream>
+#include <QGraphicsScene>
 
 namespace DT
 {
@@ -12,7 +13,8 @@ namespace DT
 class DT::Loader
 {
     public:
-        static Scrooge* load(std::string levelName);
+        static Scrooge* load(std::string levelName, QGraphicsScene * scene);
 };
+
 
 #endif

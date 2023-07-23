@@ -24,4 +24,3 @@ Object::Object(QPointF pos, double width, double height)
 
     setPos(pos);
 }
-

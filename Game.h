@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GAME_H
+#define GAME_H
 
 #include <QGraphicsView>
 #include <QTimer>
@@ -14,6 +15,7 @@ namespace DT
 class DT::Game:public QGraphicsView
 {
     Q_OBJECT
+    enum game_state{READY, RUNNING, PAUSE, GAME_OVER};
 private:
     //GameState _state;
     Scrooge* _player;
@@ -33,3 +35,4 @@ public slots:
 
 
 };
+#endif

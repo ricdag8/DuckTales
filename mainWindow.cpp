@@ -2,6 +2,7 @@
 
 using namespace DT;
 
+
 MainWindow::MainWindow() : QWidget(0)
 {
     _game = Game::instance();
@@ -14,7 +15,6 @@ MainWindow::MainWindow() : QWidget(0)
     _layout->addItem(new QSpacerItem(0, 0));
     setLayout(_layout);
 
-    setStyleSheet("background-color: black;");
 
     setWindowTitle("DuckTales [NES]");
 
