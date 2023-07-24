@@ -104,7 +104,6 @@ DT::Scrooge* DT::Loader::load(std::string levelName, QGraphicsScene * scene)
         new block(QPointF(90*TILE, -44*TILE), 4*TILE, 6*TILE);
         new block(QPointF(94*TILE, -44*TILE), 2*TILE, 12*TILE);
         new block(QPointF(96*TILE, -44*TILE), 10*TILE, 2.5*TILE);
-
         new block(QPointF(89*TILE, -59*TILE), TILE, 5*TILE);
         new block(QPointF(90*TILE, -59*TILE), 2*TILE, 6*TILE);
         new block(QPointF(92*TILE, -61*TILE), 2*TILE, 9*TILE);
@@ -116,6 +115,8 @@ DT::Scrooge* DT::Loader::load(std::string levelName, QGraphicsScene * scene)
         new block(QPointF(104*TILE, -50*TILE), 2*TILE, 4*TILE);
         new block(QPointF(106*TILE, -48*TILE), 2*TILE, 6.5*TILE);
         new block(QPointF(108*TILE, -46*TILE), TILE, 4.5*TILE);
+
+        //manca livello ratto
 
 
 
