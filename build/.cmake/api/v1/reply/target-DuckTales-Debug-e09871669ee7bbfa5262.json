@@ -45,19 +45,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 14,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 22,
+				"line" : 23,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 18,
+				"line" : 19,
 				"parent" : 0
 			},
 			{
@@ -115,7 +115,7 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 19,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
@@ -141,7 +141,7 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 17,
+				"line" : 18,
 				"parent" : 0
 			},
 			{
@@ -389,10 +389,15 @@
 			[
 				0,
 				1,
-				3,
-				5,
+				4,
 				6,
-				9
+				9,
+				11,
+				13,
+				17,
+				18,
+				21,
+				23
 			]
 		}
 	],
@@ -510,10 +515,15 @@
 			[
 				0,
 				1,
-				3,
-				5,
+				4,
 				6,
-				9
+				9,
+				11,
+				13,
+				17,
+				18,
+				21,
+				23
 			]
 		},
 		{
@@ -521,22 +531,31 @@
 			"sourceIndexes" : 
 			[
 				2,
-				4,
-				7
+				3,
+				5,
+				7,
+				8,
+				10,
+				12,
+				14,
+				15,
+				16,
+				19,
+				22
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				8
+				20
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				10
+				24
 			]
 		}
 	],
@@ -552,12 +571,66 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "Block.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Block.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Direction.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Entity.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Entity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "Game.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"path" : "Game.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "GameConfig.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Loader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Loader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Object.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Object.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -569,6 +642,16 @@
 		{
 			"backtrace" : 1,
 			"path" : "Scrooge.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "StaticObject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Vec2D.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -592,6 +675,17 @@
 			"backtrace" : 1,
 			"path" : "resources.qrc",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sprites.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "sprites.h",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,

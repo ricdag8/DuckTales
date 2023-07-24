@@ -303,9 +303,45 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/mario/Documents/DuckTales/DuckTales-1/Block.h",
+			"Mu",
+			"EWIEGA46WW/moc_Block.cpp",
+			null
+		],
+		[
+			"/Users/mario/Documents/DuckTales/DuckTales-1/Direction.h",
+			"Mu",
+			"EWIEGA46WW/moc_Direction.cpp",
+			null
+		],
+		[
+			"/Users/mario/Documents/DuckTales/DuckTales-1/Entity.h",
+			"Mu",
+			"EWIEGA46WW/moc_Entity.cpp",
+			null
+		],
+		[
 			"/Users/mario/Documents/DuckTales/DuckTales-1/Game.h",
 			"Mu",
 			"EWIEGA46WW/moc_Game.cpp",
+			null
+		],
+		[
+			"/Users/mario/Documents/DuckTales/DuckTales-1/GameConfig.h",
+			"Mu",
+			"EWIEGA46WW/moc_GameConfig.cpp",
+			null
+		],
+		[
+			"/Users/mario/Documents/DuckTales/DuckTales-1/Loader.h",
+			"Mu",
+			"EWIEGA46WW/moc_Loader.cpp",
+			null
+		],
+		[
+			"/Users/mario/Documents/DuckTales/DuckTales-1/Object.h",
+			"Mu",
+			"EWIEGA46WW/moc_Object.cpp",
 			null
 		],
 		[
@@ -315,9 +351,27 @@
 			null
 		],
 		[
+			"/Users/mario/Documents/DuckTales/DuckTales-1/StaticObject.h",
+			"Mu",
+			"EWIEGA46WW/moc_StaticObject.cpp",
+			null
+		],
+		[
+			"/Users/mario/Documents/DuckTales/DuckTales-1/Vec2D.h",
+			"Mu",
+			"EWIEGA46WW/moc_Vec2D.cpp",
+			null
+		],
+		[
 			"/Users/mario/Documents/DuckTales/DuckTales-1/mainWindow.h",
 			"Mu",
 			"EWIEGA46WW/moc_mainWindow.cpp",
+			null
+		],
+		[
+			"/Users/mario/Documents/DuckTales/DuckTales-1/sprites.h",
+			"Mu",
+			"EWIEGA46WW/moc_sprites.cpp",
 			null
 		]
 	],
@@ -388,7 +442,11 @@
 	"SETTINGS_FILE" : "/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles/DuckTales_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/Users/mario/Documents/DuckTales/DuckTales-1/Block.cpp", "Mu", null ],
+		[ "/Users/mario/Documents/DuckTales/DuckTales-1/Entity.cpp", "Mu", null ],
 		[ "/Users/mario/Documents/DuckTales/DuckTales-1/Game.cpp", "Mu", null ],
+		[ "/Users/mario/Documents/DuckTales/DuckTales-1/Loader.cpp", "Mu", null ],
+		[ "/Users/mario/Documents/DuckTales/DuckTales-1/Object.cpp", "Mu", null ],
 		[
 			"/Users/mario/Documents/DuckTales/DuckTales-1/Scrooge.cpp",
 			"Mu",
@@ -397,6 +455,11 @@
 		[ "/Users/mario/Documents/DuckTales/DuckTales-1/main.cpp", "Mu", null ],
 		[
 			"/Users/mario/Documents/DuckTales/DuckTales-1/mainWindow.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/Users/mario/Documents/DuckTales/DuckTales-1/sprites.cpp",
 			"Mu",
 			null
 		]

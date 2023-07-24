@@ -142,6 +142,30 @@ DuckTales_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales_autogen.dir/build.make CMakeFiles/DuckTales_autogen.dir/build
 .PHONY : DuckTales_autogen/fast
 
+Block.o: Block.cpp.o
+.PHONY : Block.o
+
+# target to build an object file
+Block.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/Block.cpp.o
+.PHONY : Block.cpp.o
+
+Block.i: Block.cpp.i
+.PHONY : Block.i
+
+# target to preprocess a source file
+Block.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/Block.cpp.i
+.PHONY : Block.cpp.i
+
+Block.s: Block.cpp.s
+.PHONY : Block.s
+
+# target to generate assembly for a file
+Block.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/Block.cpp.s
+.PHONY : Block.cpp.s
+
 DuckTales_autogen/EWIEGA46WW/qrc_resources.o: DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp.o
 .PHONY : DuckTales_autogen/EWIEGA46WW/qrc_resources.o
 
@@ -190,6 +214,30 @@ DuckTales_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/DuckTales_autogen/mocs_compilation.cpp.s
 .PHONY : DuckTales_autogen/mocs_compilation.cpp.s
 
+Entity.o: Entity.cpp.o
+.PHONY : Entity.o
+
+# target to build an object file
+Entity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/Entity.cpp.o
+.PHONY : Entity.cpp.o
+
+Entity.i: Entity.cpp.i
+.PHONY : Entity.i
+
+# target to preprocess a source file
+Entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/Entity.cpp.i
+.PHONY : Entity.cpp.i
+
+Entity.s: Entity.cpp.s
+.PHONY : Entity.s
+
+# target to generate assembly for a file
+Entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/Entity.cpp.s
+.PHONY : Entity.cpp.s
+
 Game.o: Game.cpp.o
 .PHONY : Game.o
 
@@ -213,6 +261,54 @@ Game.s: Game.cpp.s
 Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/Game.cpp.s
 .PHONY : Game.cpp.s
+
+Loader.o: Loader.cpp.o
+.PHONY : Loader.o
+
+# target to build an object file
+Loader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/Loader.cpp.o
+.PHONY : Loader.cpp.o
+
+Loader.i: Loader.cpp.i
+.PHONY : Loader.i
+
+# target to preprocess a source file
+Loader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/Loader.cpp.i
+.PHONY : Loader.cpp.i
+
+Loader.s: Loader.cpp.s
+.PHONY : Loader.s
+
+# target to generate assembly for a file
+Loader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/Loader.cpp.s
+.PHONY : Loader.cpp.s
+
+Object.o: Object.cpp.o
+.PHONY : Object.o
+
+# target to build an object file
+Object.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/Object.cpp.o
+.PHONY : Object.cpp.o
+
+Object.i: Object.cpp.i
+.PHONY : Object.i
+
+# target to preprocess a source file
+Object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/Object.cpp.i
+.PHONY : Object.cpp.i
+
+Object.s: Object.cpp.s
+.PHONY : Object.s
+
+# target to generate assembly for a file
+Object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/Object.cpp.s
+.PHONY : Object.cpp.s
 
 Scrooge.o: Scrooge.cpp.o
 .PHONY : Scrooge.o
@@ -286,6 +382,30 @@ mainWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/mainWindow.cpp.s
 .PHONY : mainWindow.cpp.s
 
+sprites.o: sprites.cpp.o
+.PHONY : sprites.o
+
+# target to build an object file
+sprites.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/sprites.cpp.o
+.PHONY : sprites.cpp.o
+
+sprites.i: sprites.cpp.i
+.PHONY : sprites.i
+
+# target to preprocess a source file
+sprites.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/sprites.cpp.i
+.PHONY : sprites.cpp.i
+
+sprites.s: sprites.cpp.s
+.PHONY : sprites.s
+
+# target to generate assembly for a file
+sprites.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DuckTales.dir/build.make CMakeFiles/DuckTales.dir/sprites.cpp.s
+.PHONY : sprites.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -296,15 +416,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... DuckTales_autogen"
 	@echo "... DuckTales"
+	@echo "... Block.o"
+	@echo "... Block.i"
+	@echo "... Block.s"
 	@echo "... DuckTales_autogen/EWIEGA46WW/qrc_resources.o"
 	@echo "... DuckTales_autogen/EWIEGA46WW/qrc_resources.i"
 	@echo "... DuckTales_autogen/EWIEGA46WW/qrc_resources.s"
 	@echo "... DuckTales_autogen/mocs_compilation.o"
 	@echo "... DuckTales_autogen/mocs_compilation.i"
 	@echo "... DuckTales_autogen/mocs_compilation.s"
+	@echo "... Entity.o"
+	@echo "... Entity.i"
+	@echo "... Entity.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
+	@echo "... Loader.o"
+	@echo "... Loader.i"
+	@echo "... Loader.s"
+	@echo "... Object.o"
+	@echo "... Object.i"
+	@echo "... Object.s"
 	@echo "... Scrooge.o"
 	@echo "... Scrooge.i"
 	@echo "... Scrooge.s"
@@ -314,6 +446,9 @@ help:
 	@echo "... mainWindow.o"
 	@echo "... mainWindow.i"
 	@echo "... mainWindow.s"
+	@echo "... sprites.o"
+	@echo "... sprites.i"
+	@echo "... sprites.s"
 .PHONY : help
 
 

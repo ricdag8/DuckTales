@@ -72,6 +72,7 @@ include CMakeFiles/DuckTales.dir/flags.make
 DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/mario/Documents/DuckTales/DuckTales-1/resources.qrc
 DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/DuckTales_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
 DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/mario/Documents/DuckTales/DuckTales-1/theMoon.png
+DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/mario/Documents/DuckTales/DuckTales-1/stillScrooge.png
 DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp: /Users/mario/Qt/6.4.2/macos/./libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resources.qrc"
 	/Applications/CMake.app/Contents/bin/cmake -E cmake_autorcc /Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles/DuckTales_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json Debug
@@ -90,10 +91,38 @@ CMakeFiles/DuckTales.dir/DuckTales_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DuckTales.dir/DuckTales_autogen/mocs_compilation.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mario/Documents/DuckTales/DuckTales-1/build/DuckTales_autogen/mocs_compilation.cpp -o CMakeFiles/DuckTales.dir/DuckTales_autogen/mocs_compilation.cpp.s
 
+CMakeFiles/DuckTales.dir/Block.cpp.o: CMakeFiles/DuckTales.dir/flags.make
+CMakeFiles/DuckTales.dir/Block.cpp.o: /Users/mario/Documents/DuckTales/DuckTales-1/Block.cpp
+CMakeFiles/DuckTales.dir/Block.cpp.o: CMakeFiles/DuckTales.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DuckTales.dir/Block.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DuckTales.dir/Block.cpp.o -MF CMakeFiles/DuckTales.dir/Block.cpp.o.d -o CMakeFiles/DuckTales.dir/Block.cpp.o -c /Users/mario/Documents/DuckTales/DuckTales-1/Block.cpp
+
+CMakeFiles/DuckTales.dir/Block.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DuckTales.dir/Block.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mario/Documents/DuckTales/DuckTales-1/Block.cpp > CMakeFiles/DuckTales.dir/Block.cpp.i
+
+CMakeFiles/DuckTales.dir/Block.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DuckTales.dir/Block.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mario/Documents/DuckTales/DuckTales-1/Block.cpp -o CMakeFiles/DuckTales.dir/Block.cpp.s
+
+CMakeFiles/DuckTales.dir/Entity.cpp.o: CMakeFiles/DuckTales.dir/flags.make
+CMakeFiles/DuckTales.dir/Entity.cpp.o: /Users/mario/Documents/DuckTales/DuckTales-1/Entity.cpp
+CMakeFiles/DuckTales.dir/Entity.cpp.o: CMakeFiles/DuckTales.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DuckTales.dir/Entity.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DuckTales.dir/Entity.cpp.o -MF CMakeFiles/DuckTales.dir/Entity.cpp.o.d -o CMakeFiles/DuckTales.dir/Entity.cpp.o -c /Users/mario/Documents/DuckTales/DuckTales-1/Entity.cpp
+
+CMakeFiles/DuckTales.dir/Entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DuckTales.dir/Entity.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mario/Documents/DuckTales/DuckTales-1/Entity.cpp > CMakeFiles/DuckTales.dir/Entity.cpp.i
+
+CMakeFiles/DuckTales.dir/Entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DuckTales.dir/Entity.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mario/Documents/DuckTales/DuckTales-1/Entity.cpp -o CMakeFiles/DuckTales.dir/Entity.cpp.s
+
 CMakeFiles/DuckTales.dir/Game.cpp.o: CMakeFiles/DuckTales.dir/flags.make
 CMakeFiles/DuckTales.dir/Game.cpp.o: /Users/mario/Documents/DuckTales/DuckTales-1/Game.cpp
 CMakeFiles/DuckTales.dir/Game.cpp.o: CMakeFiles/DuckTales.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DuckTales.dir/Game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DuckTales.dir/Game.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DuckTales.dir/Game.cpp.o -MF CMakeFiles/DuckTales.dir/Game.cpp.o.d -o CMakeFiles/DuckTales.dir/Game.cpp.o -c /Users/mario/Documents/DuckTales/DuckTales-1/Game.cpp
 
 CMakeFiles/DuckTales.dir/Game.cpp.i: cmake_force
@@ -104,10 +133,38 @@ CMakeFiles/DuckTales.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DuckTales.dir/Game.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mario/Documents/DuckTales/DuckTales-1/Game.cpp -o CMakeFiles/DuckTales.dir/Game.cpp.s
 
+CMakeFiles/DuckTales.dir/Loader.cpp.o: CMakeFiles/DuckTales.dir/flags.make
+CMakeFiles/DuckTales.dir/Loader.cpp.o: /Users/mario/Documents/DuckTales/DuckTales-1/Loader.cpp
+CMakeFiles/DuckTales.dir/Loader.cpp.o: CMakeFiles/DuckTales.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DuckTales.dir/Loader.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DuckTales.dir/Loader.cpp.o -MF CMakeFiles/DuckTales.dir/Loader.cpp.o.d -o CMakeFiles/DuckTales.dir/Loader.cpp.o -c /Users/mario/Documents/DuckTales/DuckTales-1/Loader.cpp
+
+CMakeFiles/DuckTales.dir/Loader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DuckTales.dir/Loader.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mario/Documents/DuckTales/DuckTales-1/Loader.cpp > CMakeFiles/DuckTales.dir/Loader.cpp.i
+
+CMakeFiles/DuckTales.dir/Loader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DuckTales.dir/Loader.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mario/Documents/DuckTales/DuckTales-1/Loader.cpp -o CMakeFiles/DuckTales.dir/Loader.cpp.s
+
+CMakeFiles/DuckTales.dir/Object.cpp.o: CMakeFiles/DuckTales.dir/flags.make
+CMakeFiles/DuckTales.dir/Object.cpp.o: /Users/mario/Documents/DuckTales/DuckTales-1/Object.cpp
+CMakeFiles/DuckTales.dir/Object.cpp.o: CMakeFiles/DuckTales.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DuckTales.dir/Object.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DuckTales.dir/Object.cpp.o -MF CMakeFiles/DuckTales.dir/Object.cpp.o.d -o CMakeFiles/DuckTales.dir/Object.cpp.o -c /Users/mario/Documents/DuckTales/DuckTales-1/Object.cpp
+
+CMakeFiles/DuckTales.dir/Object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DuckTales.dir/Object.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mario/Documents/DuckTales/DuckTales-1/Object.cpp > CMakeFiles/DuckTales.dir/Object.cpp.i
+
+CMakeFiles/DuckTales.dir/Object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DuckTales.dir/Object.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mario/Documents/DuckTales/DuckTales-1/Object.cpp -o CMakeFiles/DuckTales.dir/Object.cpp.s
+
 CMakeFiles/DuckTales.dir/Scrooge.cpp.o: CMakeFiles/DuckTales.dir/flags.make
 CMakeFiles/DuckTales.dir/Scrooge.cpp.o: /Users/mario/Documents/DuckTales/DuckTales-1/Scrooge.cpp
 CMakeFiles/DuckTales.dir/Scrooge.cpp.o: CMakeFiles/DuckTales.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DuckTales.dir/Scrooge.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DuckTales.dir/Scrooge.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DuckTales.dir/Scrooge.cpp.o -MF CMakeFiles/DuckTales.dir/Scrooge.cpp.o.d -o CMakeFiles/DuckTales.dir/Scrooge.cpp.o -c /Users/mario/Documents/DuckTales/DuckTales-1/Scrooge.cpp
 
 CMakeFiles/DuckTales.dir/Scrooge.cpp.i: cmake_force
@@ -121,7 +178,7 @@ CMakeFiles/DuckTales.dir/Scrooge.cpp.s: cmake_force
 CMakeFiles/DuckTales.dir/main.cpp.o: CMakeFiles/DuckTales.dir/flags.make
 CMakeFiles/DuckTales.dir/main.cpp.o: /Users/mario/Documents/DuckTales/DuckTales-1/main.cpp
 CMakeFiles/DuckTales.dir/main.cpp.o: CMakeFiles/DuckTales.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DuckTales.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DuckTales.dir/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DuckTales.dir/main.cpp.o -MF CMakeFiles/DuckTales.dir/main.cpp.o.d -o CMakeFiles/DuckTales.dir/main.cpp.o -c /Users/mario/Documents/DuckTales/DuckTales-1/main.cpp
 
 CMakeFiles/DuckTales.dir/main.cpp.i: cmake_force
@@ -135,7 +192,7 @@ CMakeFiles/DuckTales.dir/main.cpp.s: cmake_force
 CMakeFiles/DuckTales.dir/mainWindow.cpp.o: CMakeFiles/DuckTales.dir/flags.make
 CMakeFiles/DuckTales.dir/mainWindow.cpp.o: /Users/mario/Documents/DuckTales/DuckTales-1/mainWindow.cpp
 CMakeFiles/DuckTales.dir/mainWindow.cpp.o: CMakeFiles/DuckTales.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DuckTales.dir/mainWindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/DuckTales.dir/mainWindow.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DuckTales.dir/mainWindow.cpp.o -MF CMakeFiles/DuckTales.dir/mainWindow.cpp.o.d -o CMakeFiles/DuckTales.dir/mainWindow.cpp.o -c /Users/mario/Documents/DuckTales/DuckTales-1/mainWindow.cpp
 
 CMakeFiles/DuckTales.dir/mainWindow.cpp.i: cmake_force
@@ -146,10 +203,24 @@ CMakeFiles/DuckTales.dir/mainWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DuckTales.dir/mainWindow.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mario/Documents/DuckTales/DuckTales-1/mainWindow.cpp -o CMakeFiles/DuckTales.dir/mainWindow.cpp.s
 
+CMakeFiles/DuckTales.dir/sprites.cpp.o: CMakeFiles/DuckTales.dir/flags.make
+CMakeFiles/DuckTales.dir/sprites.cpp.o: /Users/mario/Documents/DuckTales/DuckTales-1/sprites.cpp
+CMakeFiles/DuckTales.dir/sprites.cpp.o: CMakeFiles/DuckTales.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/DuckTales.dir/sprites.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DuckTales.dir/sprites.cpp.o -MF CMakeFiles/DuckTales.dir/sprites.cpp.o.d -o CMakeFiles/DuckTales.dir/sprites.cpp.o -c /Users/mario/Documents/DuckTales/DuckTales-1/sprites.cpp
+
+CMakeFiles/DuckTales.dir/sprites.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DuckTales.dir/sprites.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mario/Documents/DuckTales/DuckTales-1/sprites.cpp > CMakeFiles/DuckTales.dir/sprites.cpp.i
+
+CMakeFiles/DuckTales.dir/sprites.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DuckTales.dir/sprites.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mario/Documents/DuckTales/DuckTales-1/sprites.cpp -o CMakeFiles/DuckTales.dir/sprites.cpp.s
+
 CMakeFiles/DuckTales.dir/DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp.o: CMakeFiles/DuckTales.dir/flags.make
 CMakeFiles/DuckTales.dir/DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp.o: DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp
 CMakeFiles/DuckTales.dir/DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp.o: CMakeFiles/DuckTales.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DuckTales.dir/DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/DuckTales.dir/DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DuckTales.dir/DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp.o -MF CMakeFiles/DuckTales.dir/DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp.o.d -o CMakeFiles/DuckTales.dir/DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp.o -c /Users/mario/Documents/DuckTales/DuckTales-1/build/DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp
 
 CMakeFiles/DuckTales.dir/DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp.i: cmake_force
@@ -163,20 +234,30 @@ CMakeFiles/DuckTales.dir/DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp.s: cmake
 # Object files for target DuckTales
 DuckTales_OBJECTS = \
 "CMakeFiles/DuckTales.dir/DuckTales_autogen/mocs_compilation.cpp.o" \
+"CMakeFiles/DuckTales.dir/Block.cpp.o" \
+"CMakeFiles/DuckTales.dir/Entity.cpp.o" \
 "CMakeFiles/DuckTales.dir/Game.cpp.o" \
+"CMakeFiles/DuckTales.dir/Loader.cpp.o" \
+"CMakeFiles/DuckTales.dir/Object.cpp.o" \
 "CMakeFiles/DuckTales.dir/Scrooge.cpp.o" \
 "CMakeFiles/DuckTales.dir/main.cpp.o" \
 "CMakeFiles/DuckTales.dir/mainWindow.cpp.o" \
+"CMakeFiles/DuckTales.dir/sprites.cpp.o" \
 "CMakeFiles/DuckTales.dir/DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp.o"
 
 # External object files for target DuckTales
 DuckTales_EXTERNAL_OBJECTS =
 
 DuckTales: CMakeFiles/DuckTales.dir/DuckTales_autogen/mocs_compilation.cpp.o
+DuckTales: CMakeFiles/DuckTales.dir/Block.cpp.o
+DuckTales: CMakeFiles/DuckTales.dir/Entity.cpp.o
 DuckTales: CMakeFiles/DuckTales.dir/Game.cpp.o
+DuckTales: CMakeFiles/DuckTales.dir/Loader.cpp.o
+DuckTales: CMakeFiles/DuckTales.dir/Object.cpp.o
 DuckTales: CMakeFiles/DuckTales.dir/Scrooge.cpp.o
 DuckTales: CMakeFiles/DuckTales.dir/main.cpp.o
 DuckTales: CMakeFiles/DuckTales.dir/mainWindow.cpp.o
+DuckTales: CMakeFiles/DuckTales.dir/sprites.cpp.o
 DuckTales: CMakeFiles/DuckTales.dir/DuckTales_autogen/EWIEGA46WW/qrc_resources.cpp.o
 DuckTales: CMakeFiles/DuckTales.dir/build.make
 DuckTales: /Users/mario/Qt/6.4.2/macos/lib/QtMultimedia.framework/Versions/A/QtMultimedia
@@ -187,7 +268,7 @@ DuckTales: /Users/mario/Qt/6.4.2/macos/lib/QtOpenGL.framework/Versions/A/QtOpenG
 DuckTales: /Users/mario/Qt/6.4.2/macos/lib/QtGui.framework/Versions/A/QtGui
 DuckTales: /Users/mario/Qt/6.4.2/macos/lib/QtCore.framework/Versions/A/QtCore
 DuckTales: CMakeFiles/DuckTales.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable DuckTales"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable DuckTales"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DuckTales.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

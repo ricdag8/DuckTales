@@ -5,7 +5,11 @@
 	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/mario/Documents/DuckTales/DuckTales-1",
 	"CMAKE_SOURCE_DIR" : "/Users/mario/Documents/DuckTales/DuckTales-1",
 	"INCLUDE_DIR" : "/Users/mario/Documents/DuckTales/DuckTales-1/build/DuckTales_autogen/include",
-	"INPUTS" : [ "/Users/mario/Documents/DuckTales/DuckTales-1/theMoon.png" ],
+	"INPUTS" : 
+	[
+		"/Users/mario/Documents/DuckTales/DuckTales-1/theMoon.png",
+		"/Users/mario/Documents/DuckTales/DuckTales-1/stillScrooge.png"
+	],
 	"LOCK_FILE" : "/Users/mario/Documents/DuckTales/DuckTales-1/build/CMakeFiles/DuckTales_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "-name", "resources" ],
