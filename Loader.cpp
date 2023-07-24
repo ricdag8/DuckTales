@@ -116,7 +116,28 @@ DT::Scrooge* DT::Loader::load(std::string levelName, QGraphicsScene * scene)
         new block(QPointF(106*TILE, -48*TILE), 2*TILE, 6.5*TILE);
         new block(QPointF(108*TILE, -46*TILE), TILE, 4.5*TILE);
 
-        //manca livello ratto
+        //livello ratto
+        new block(QPointF(64*TILE, 7*TILE), TILE, 11.5*TILE);
+        new block(QPointF(65*TILE, 13*TILE), 3*TILE, TILE);
+        new block(QPointF(76*TILE, 13*TILE), 3*TILE, TILE);
+        new block(QPointF(79*TILE, 7*TILE), TILE, 6*TILE);
+        new block(QPointF(80*TILE, 7*TILE), 32*TILE, TILE);
+        new block(QPointF(65*TILE, 16*TILE), 23*TILE, 2.5*TILE);
+        new block(QPointF(88*TILE, 15*TILE), 2*TILE, 3.5*TILE);
+        new block(QPointF(90*TILE, 13*TILE), 2*TILE, 5.5*TILE);
+        new block(QPointF(92*TILE, 14*TILE), 2*TILE, 4.5*TILE);
+        new block(QPointF(94*TILE, 15*TILE), 3*TILE, 3.5*TILE);
+        new block(QPointF(97*TILE, 16*TILE), 2*TILE, 2.5*TILE);
+        new block(QPointF(99*TILE, 13*TILE), 3*TILE, 5.5*TILE);
+        new block(QPointF(102*TILE, 14*TILE), 3*TILE, 4.5*TILE);
+        new block(QPointF(105*TILE, 13*TILE), 2*TILE, 5.5*TILE);
+        new block(QPointF(107*TILE, 16*TILE), 2*TILE, 2.5*TILE);
+        new block(QPointF(109*TILE, 14*TILE), 2*TILE, 4.5*TILE);
+        new block(QPointF(111*TILE, 15*TILE), 2*TILE, 3.5*TILE);
+        new block(QPointF(113*TILE, 14*TILE), 2*TILE, 4.5*TILE);
+        new block(QPointF(115*TILE, 15*TILE), 3*TILE, 4.5*TILE);
+        new block(QPointF(118*TILE, 16*TILE), 8*TILE, 2.5*TILE);
+        
 
 
 
